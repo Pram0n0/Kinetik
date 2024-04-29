@@ -1,0 +1,102 @@
+body {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+}
+
+.food-log-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.food-score {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.stats {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.add-food,
+.settings {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.add-food input,
+.settings input {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-food input {
+  margin-right: 15px;
+}
+
+.settings input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.add-food button,
+.settings button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-food button:hover,
+.settings button:hover {
+  background-color: #45a049;
+}
+
+.food-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.food-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.food-list li {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+@media (max-width: 768px) {
+  .food-log-container {
+    width: 90%;
+  }
+}

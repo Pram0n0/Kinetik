@@ -1,0 +1,106 @@
+.progress-bar-container {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+
+/* Profile Container */
+.profile-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Profile Header */
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-header h2 {
+  font-size: 28px;
+}
+
+.profile-header h4 {
+  font-size: 18px;
+}
+
+.profile-header button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-header button:hover {
+  background-color: #45a049;
+}
+
+/* Profile Sections */
+.profile-section {
+  margin-bottom: 30px;
+}
+
+.profile-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Profile Fields */
+.profile-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.profile-field {
+  display: flex;
+  align-items: center;
+}
+
+.profile-field label {
+  font-weight: bold;
+}
+
+.profile-field input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-field span {
+  margin-left: 10px;
+}
+
+.profile-field span:last-child {
+  margin-right: 10px;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 10px;
+}

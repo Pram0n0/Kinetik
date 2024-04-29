@@ -1,0 +1,73 @@
+.fitness-tracker-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0;
+  padding: 20px;
+}
+
+.template-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.template {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.template:hover {
+  background-color: #f0f0f0;
+}
+
+.template:focus {
+  outline: none;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+.fitness-tracker-container button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fitness-tracker-container button:hover {
+  background-color: #0056b3;
+}
+
+.fitness-tracker-container button:focus {
+  outline: none;
+}
+
+.weight-input,
+.reps-input {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.workout-in-progress {
+  margin-top: 20px;
+}
+
+.exercise {
+  margin-bottom: 20px;
+}
+
+.workout-history {
+  padding-bottom: 20px;
+}
